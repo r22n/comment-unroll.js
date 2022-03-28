@@ -3,7 +3,7 @@ unroll table into code by template
 
 simple usage
 ```
-$npx unroll src/path/to/your/code
+$npx comment-unroll src/path/to/your/code
 ```
 
 expansion your format macro
