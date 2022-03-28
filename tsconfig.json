@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "target": "ES2015",
+      "module": "commonjs",
+      "allowJs": true,
+      "rootDirs": ["src"],
+      "outDir": "dist",
+    }
+}

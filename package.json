@@ -1,0 +1,42 @@
+{
+  "name": "comment-unroll.js",
+  "version": "1.0.0",
+  "description": "unroll table into code by template",
+  "main": "dist/unroll.js",
+  "scripts": {
+    "make": "tsc",
+    "comment-unroll": "node dist/index.js"
+  },
+  "bin":{
+    "comment-unroll": "./bin/unroll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r22n/comment-unroll.js.git"
+  },
+  "author": "= <r22n@github.com> (https://github.com/r22n)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r22n/comment-unroll.js/issues"
+  },
+  "homepage": "https://github.com/r22n/comment-unroll.js#readme",
+  "keywords": [
+    "metaprogramming",
+    "macro",
+    "unroll",
+    "inline",
+    "expansion",
+    "csv",
+    "loop"
+  ],
+  "devDependencies": {
+    "@types/tmp": "^0.2.3",
+    "comma-separated-values": "^3.6.4",
+    "tmp": "^0.2.1",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.23",
+    "varcom.js": "^1.0.0"
+  }
+}

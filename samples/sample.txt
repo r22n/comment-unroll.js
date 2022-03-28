@@ -1,0 +1,34 @@
+import hoge from "fuga";
+
+/*
+# comment-unroll table
+    type,message
+    morning,good-morning
+    evening,good-evening
+    afternoon,good-afternoon
+    wwwww,good-afternoon
+# comment-unroll end
+*/
+switch(hoge) {
+/*
+# comment-unroll template
+    case "${type}":
+        console.log("${message}");
+        break;
+# comment-unroll end
+*/
+//# comment-unroll unroll
+    case "morning":
+        console.log("good-morning");
+        break;
+    case "evening":
+        console.log("good-evening");
+        break;
+    case "afternoon":
+        console.log("good-afternoon");
+        break;
+    case "wwwww":
+        console.log("good-afternoon");
+        break;
+//# comment-unroll end
+}
