@@ -1,6 +1,6 @@
 {
   "name": "comment-unroll.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "unroll table into code by template",
   "main": "dist/unroll.js",
   "scripts": {
@@ -30,12 +30,12 @@
     "loop"
   ],
   "devDependencies": {
+    "@types/node": "^17.0.23",
     "@types/tmp": "^0.2.3",
-    "comma-separated-values": "^3.6.4",
     "typescript": "^4.6.3"
   },
   "dependencies": {
-    "@types/node": "^17.0.23",
+    "comma-separated-values": "^3.6.4",
     "tmp": "^0.2.1",
     "varcom.js": "^1.0.0"
   }
